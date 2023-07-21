@@ -41,5 +41,22 @@
 
 ## This transformation from JSON data to tabular data is summarized by the following:
 
-<img src="Architecture.jpeg">
+<img src="Raw_Transformed_Data.jpeg">
+
+
+## AirFlow DAG
+
+<img src="AirFlow_DAG.png">
+
+## After Extraction of data from YouTube API the data is loaded into S3 as a .csv files
+
+<img src="S3_CSV_FILES.png">
   
+
+
+## Output data
+
+<img src="Output_Data.png">
+
+## 
+

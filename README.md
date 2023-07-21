@@ -53,5 +53,7 @@
 
 <img src="Output_Data.png">
 
-## 
+## Data Visualization in QuickSight
+
+<img src="Quicksight_Data_Visualization_page-0001.jpg">
 

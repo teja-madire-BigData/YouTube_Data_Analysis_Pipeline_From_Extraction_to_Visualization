@@ -16,21 +16,30 @@
  - What are the most popular video categories in each country?
  - Does the most popular video category change over time? If so, how?
  - Number of videos uploaded over time.
+ - 
 
 
 ## Architecture 
 <img src="Architecture.jpeg">
 
+
+
 ## The response of the API call contains information on up to 50 of the most popular videos in a given country at a given time. The raw data comes in a JSON format:
 
-{
-  "kind": "youtube#videoListResponse",
-  "etag": etag,
-  "nextPageToken": string,
-  "prevPageToken": string,
-  "pageInfo": {
-    "totalResults": integer,
-    "resultsPerPage": integer
-  },
-  "items": [video Resource]
-}
+  {
+    "kind": "youtube#videoListResponse",
+    "etag": etag,
+    "nextPageToken": string,
+    "prevPageToken": string,
+    "pageInfo": {
+      "totalResults": integer,
+      "resultsPerPage": integer
+    },
+    "items": [video Resource]
+  }
+
+
+## This transformation from JSON data to tabular data is summarized by the following:
+
+<img src="Architecture.jpeg">
+  

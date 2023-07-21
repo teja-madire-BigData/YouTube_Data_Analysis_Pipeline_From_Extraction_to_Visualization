@@ -1,5 +1,7 @@
 # YouTube Data Analysis Pipeline: From Extraction to Visualization
 
+## Project Description:
+
  - Developed an end-to-end YouTube data pipeline using Python, AWS services, and Apache Airflow.
  - Goal: Collected YouTube data for the 5 countries with the most YouTube users - Brazil, India, Indonesia, Mexico, and the United States.
  - Pipeline collected data on a daily basis to ensure up-to-date information.

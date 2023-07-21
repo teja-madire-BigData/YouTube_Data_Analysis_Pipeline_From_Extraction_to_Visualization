@@ -1,0 +1,14 @@
+{
+    "fileLocations": [
+      {
+        "URIs": ["s3://youtube-extracted-data/query-output/most_popular_categories.csv"]
+      }
+    ],
+    "globalUploadSettings": {
+      "format": "CSV",
+      "delimiter": ",",
+      "textqualifier": "\"",
+      "containsHeader": "true"
+    }
+  }
+  

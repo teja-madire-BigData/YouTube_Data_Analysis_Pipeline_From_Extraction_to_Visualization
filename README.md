@@ -10,3 +10,7 @@
  - Orchestrated the entire process using an Apache Airflow DAG.
  - Visualized analyzed data with Amazon QuickSight, delivering valuable insights for decision-making.
  - Demonstrated expertise in data engineering, cloud computing, and workflow automation.
+
+
+   ## Architecture 
+<img src="Architecture.jpeg">

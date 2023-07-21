@@ -11,6 +11,26 @@
  - Visualized analyzed data with Amazon QuickSight, delivering valuable insights for decision-making.
  - Demonstrated expertise in data engineering, cloud computing, and workflow automation.
 
+## The data collected with the pipeline will be used to answer the following questions:
 
-   ## Architecture 
+ - What are the most popular video categories in each country?
+ - Does the most popular video category change over time? If so, how?
+ - Number of videos uploaded over time.
+
+
+## Architecture 
 <img src="Architecture.jpeg">
+
+## The response of the API call contains information on up to 50 of the most popular videos in a given country at a given time. The raw data comes in a JSON format:
+
+{
+  "kind": "youtube#videoListResponse",
+  "etag": etag,
+  "nextPageToken": string,
+  "prevPageToken": string,
+  "pageInfo": {
+    "totalResults": integer,
+    "resultsPerPage": integer
+  },
+  "items": [video Resource]
+}

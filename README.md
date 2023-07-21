@@ -16,12 +16,9 @@
  - What are the most popular video categories in each country?
  - Does the most popular video category change over time? If so, how?
  - Number of videos uploaded over time.
- - 
-
-
+  
 ## Architecture 
 <img src="Architecture.jpeg">
-
 
 
 ## The response of the API call contains information on up to 50 of the most popular videos in a given country at a given time. The raw data comes in a JSON format:
@@ -52,8 +49,6 @@
 
 <img src="S3_CSV_FILES.png">
   
-
-
 ## Output data
 
 <img src="Output_Data.png">

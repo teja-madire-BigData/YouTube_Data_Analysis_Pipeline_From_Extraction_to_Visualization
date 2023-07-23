@@ -18,7 +18,7 @@
  - Number of videos uploaded over time.
   
 ## Architecture 
-<img src="Architecture.jpeg">
+<img src="Architecture_Image.jpeg">
 
 
 ## The response of the API call contains information on up to 50 of the most popular videos in a given country at a given time. The raw data comes in a JSON format:

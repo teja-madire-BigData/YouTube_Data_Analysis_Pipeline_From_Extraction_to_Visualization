@@ -3,7 +3,7 @@
 ## Project Description:
 
  - Developed an end-to-end YouTube data pipeline using Python, AWS services, and Apache Airflow.
- - Goal: Collected YouTube data for the 5 countries with the most YouTube users - Brazil, India, Indonesia, Mexico, and the United States.
+ - Goal: Collected YouTube data for the 5 countries with the most YouTube users - Brazil(BR), India(IN), Indonesia(ID), Mexico(MX), and the United States(US).
  - Pipeline collected data on a daily basis to ensure up-to-date information.
  - Utilized YouTube Data API to extract relevant data and loaded it into AWS S3.
  - Leveraged AWS Athena for data analysis through SQL-like queries.
@@ -44,6 +44,9 @@
 ## AirFlow DAG
 
 <img src="AirFlow_DAG.png">
+Brazil - BR, India - IN, Indonesia - ID, Mexico - MX, and the United States - US
+
+
 
 ## After Extraction of data from YouTube API the data is loaded into S3 as a .csv files
 
